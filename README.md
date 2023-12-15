@@ -1,5 +1,12 @@
 # Introdução
-Este repositório GitHub apresenta um código na linguagem R desenvolvido com base na metodologia do artigo "Smile photograph analysis and its connection with focal length as one of identification methods in forensic anthropology and odontology". A pesquisa, coautoria de Carlo Ralph De Musis e Gabriel Chaves, foca na análise de fotografias de sorrisos para identificação forense. O código disponibilizado aqui visa automatizar e facilitar a aplicação prática desses métodos.
+Este repositório GitHub apresenta um código na linguagem R desenvolvido com base na metodologia do artigo "Smile photograph analysis and its connection with focal length as one of identification methods in forensic anthropology and odontology". O código foca na análise de fotografias de sorrisos para identificação forense e visa automatizar e facilitar a aplicação prática desses métodos.
+
+# Metodologia
+O script foi projetado para analisar linhas de sorriso em fotografias, uma técnica relevante em antropologia e odontologia forense. Ele realiza os seguintes passos:
+
+1. **Rotaciona e Normaliza Dados**: Processa um conjunto de pontos (representando linhas de sorriso) para rotacioná-los a partir dos seus eixos de gravidade e normalizá-los, facilitando comparações posteriores.
+2. **Estimativas da aderência**: Realiza operações adicionais, como combinar pontos de diferentes curvas e calcular a medidas de aderência (distância euclidiana) entre os pontos de referência.
+3. **Bootstrap e Análise Estatística**: Aplica o método bootstrap para obtenção do intervalo de confiança para a estatística de aderência e gera visualizações correspondentes.
 
 ### Como Rodar o Script em R
 Para utilizar este script em R:
