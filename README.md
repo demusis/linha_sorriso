@@ -1,5 +1,5 @@
 # Introdução
-Este repositório GitHub apresenta um código R desenvolvido com base na metodologia do artigo "Smile photograph analysis and its connection with focal length as one of identification methods in forensic anthropology and odontology". A pesquisa, coautoria de Carlo Ralph De Musis e Gabriel Chaves, foca na análise de fotografias de sorrisos para identificação forense. O código disponibilizado aqui visa automatizar e facilitar a aplicação prática desses métodos.
+Este repositório GitHub apresenta um código na linguagem R desenvolvido com base na metodologia do artigo "Smile photograph analysis and its connection with focal length as one of identification methods in forensic anthropology and odontology". A pesquisa, coautoria de Carlo Ralph De Musis e Gabriel Chaves, foca na análise de fotografias de sorrisos para identificação forense. O código disponibilizado aqui visa automatizar e facilitar a aplicação prática desses métodos.
 
 ### Como Rodar o Script em R
 Para utilizar este script em R:
